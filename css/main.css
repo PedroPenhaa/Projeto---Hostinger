@@ -189,38 +189,38 @@ header nav ul li a span {
   margin-left: 1.6rem;
 }
 
-/* line 56, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+/* line 55, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
 .s-hero .image {
   position: relative;
   top: 3.4rem;
 }
 
 @media (max-width: 991px) {
-  /* line 62, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 61, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .container {
     flex-direction: column;
   }
-  /* line 64, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 63, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .container .text {
     max-width: 100%;
     margin-bottom: 3rem;
   }
-  /* line 67, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 66, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .container .text h1 {
     text-align: center;
   }
-  /* line 70, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 69, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .container .text p {
     max-width: 100%;
     text-align: center;
   }
-  /* line 74, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 73, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .container .text button {
     margin: 0 auto;
     margin-bottom: 4rem;
     display: block;
   }
-  /* line 80, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 79, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .container .text .conheca {
     justify-content: center;
   }
@@ -232,13 +232,200 @@ header nav ul li a span {
     padding-top: 2.5rem;
     margin-top: 8rem;
   }
-  /* line 94, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 90, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .text h1 {
     font-size: 4.3rem;
   }
-  /* line 98, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  /* line 94, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
   .s-hero .image {
     left: -0.9rem;
+  }
+}
+
+/* line 100, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources {
+  padding-top: 14.9rem;
+  padding-bottom: 9.9rem;
+}
+
+/* line 103, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5.3rem;
+}
+
+/* line 106, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .top h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 130%;
+  color: #453F51;
+  max-width: 50.2rem;
+}
+
+/* line 114, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .top p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #5E5570;
+}
+
+/* line 121, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 123, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content .icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: rgba(197, 190, 220, 0.1);
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+/* line 131, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content .info {
+  max-width: 23.9rem;
+}
+
+/* line 133, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content .info h4 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #5F3CA1;
+  margin-bottom: 2rem;
+}
+
+/* line 140, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content .info p {
+  font-size: 1.6rem;
+  line-height: 165%;
+  color: #5E5570;
+}
+
+/* line 146, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content .card-featured {
+  width: 100%;
+  max-width: 28rem;
+  width: 28rem;
+  height: 32.3rem;
+  background: #c5bedc;
+  border-radius: 1.2rem;
+  padding-top: 4.1rem;
+  padding-left: 4.2rem;
+}
+
+/* line 155, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content .card-featured .icon {
+  background-color: #fff;
+}
+
+/* line 158, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content .card-featured .info {
+  max-width: 20.4rem;
+}
+
+/* line 162, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-resources .content ul {
+  width: 100%;
+  max-width: 90.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 4.1rem;
+  border-bottom: 0.3rem solid rgba(95, 60, 161, 0.1);
+  padding-bottom: 6.5rem;
+  padding-left: 2rem;
+}
+
+@media (max-width: 991px) {
+  /* line 175, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .container .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 178, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .container .content .card-featured {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 184, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .container .content .card-featured .info {
+    max-width: 100%;
+  }
+  /* line 186, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .container .content .card-featured .info h4, .s-resources .container .content .card-featured .info p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 100, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  /* line 198, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .top {
+    flex-direction: column;
+  }
+  /* line 200, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .top h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  /* line 206, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .content ul {
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 100, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources {
+    padding-top: 6rem;
+  }
+  /* line 215, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .content ul {
+    flex-direction: column;
+    padding-left: 0rem;
+    margin-top: 3rem;
+  }
+  /* line 219, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .content ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 221, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .content ul li h4, .s-resources .content ul li p {
+    text-align: center;
+  }
+  /* line 226, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-resources .content .info {
+    max-width: 95%;
   }
 }
 
