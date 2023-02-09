@@ -15,29 +15,16 @@ html {
   font-size: 62.5%;
 }
 
-/* line 16, ../FrontEnd/Projeto - Hostinger/scss/_reset.scss */
+@media (max-width: 1280px) {
+  /* line 12, ../FrontEnd/Projeto - Hostinger/scss/_reset.scss */
+  html {
+    font-size: 55%;
+  }
+}
+
+/* line 20, ../FrontEnd/Projeto - Hostinger/scss/_reset.scss */
 img {
   max-width: 100%;
-}
-
-/* line 2, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
-body button {
-  display: inline-block;
-  height: 5.4rem;
-  line-height: 5.4rem;
-  background-color: #FFBF00;
-  border-radius: 6px;
-  padding: 0px 5rem;
-  font-weight: bold;
-  font-size: 1.6rem;
-  cursor: pointer;
-  transition: all .3s;
-}
-
-/* line 25, ../FrontEnd/Projeto - Hostinger/scss/_mixins.scss */
-body button:hover {
-  background-color: #5F3CA1;
-  color: #FFBF00;
 }
 
 /* line 1, ../FrontEnd/Projeto - Hostinger/scss/_grid.scss */
@@ -111,6 +98,147 @@ header nav ul li a span {
   /* line 50, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
   header .logo {
     max-width: 14rem;
+  }
+}
+
+/* line 1, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero {
+  margin-top: 11.9rem;
+  background-color: #5F3CA1;
+  padding-top: 3.9rem;
+}
+
+/* line 6, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 9, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .text {
+  width: 100%;
+  max-width: 55rem;
+}
+
+/* line 13, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .text h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+
+/* line 22, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .text p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #fff;
+  max-width: 48.8rem;
+  margin-bottom: 3.2rem;
+}
+
+/* line 30, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .text button {
+  display: inline-block;
+  height: 5.4rem;
+  line-height: 5.4rem;
+  background-color: #FFBF00;
+  border-radius: 6px;
+  padding: 0px 5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all .3s;
+  margin-bottom: 8.6rem;
+}
+
+/* line 25, ../FrontEnd/Projeto - Hostinger/scss/_mixins.scss */
+.s-hero .text button:hover {
+  background-color: #503387;
+  color: #FFBF00;
+}
+
+/* line 35, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .text .conheca {
+  display: flex;
+  align-items: center;
+}
+
+/* line 39, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .text .conheca .icon {
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: rgba(123, 90, 186, 0.4);
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 46, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .text .conheca span {
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #fff;
+  margin-left: 1.6rem;
+}
+
+/* line 56, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+.s-hero .image {
+  position: relative;
+  top: 3.4rem;
+}
+
+@media (max-width: 991px) {
+  /* line 62, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .container {
+    flex-direction: column;
+  }
+  /* line 64, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .container .text {
+    max-width: 100%;
+    margin-bottom: 3rem;
+  }
+  /* line 67, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .container .text h1 {
+    text-align: center;
+  }
+  /* line 70, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .container .text p {
+    max-width: 100%;
+    text-align: center;
+  }
+  /* line 74, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .container .text button {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    display: block;
+  }
+  /* line 80, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .container .text .conheca {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 1, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero {
+    padding-top: 2.5rem;
+    margin-top: 8rem;
+  }
+  /* line 94, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .text h1 {
+    font-size: 4.3rem;
+  }
+  /* line 98, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+  .s-hero .image {
+    left: -0.9rem;
   }
 }
 
