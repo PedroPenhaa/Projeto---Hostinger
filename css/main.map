@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_reset.scss",
+		"../scss/_variables.scss",
+		"../scss/_mixins.scss",
+		"../scss/_grid.scss",
+		"../scss/_home.scss"
+	],
+	"sourcesContent": [
+		"@import 'reset';\n@import 'variables';\n@import 'mixins';\n@import 'grid';\n@import 'home';\n",
+		"*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    border: none;\n    outline: none;\n    list-style: none;\n    text-decoration: none;\n    font-family: 'Lato', sans-serif;\n}\n\nhtml{\n    font-size: 62.5%;\n}",
+		"$white:#fff;\n$purple:#5F3CA1;\n$yellow:#FFBF00;\n$gray-01: #453F51;\n$gray-02: #5E5570;",
+		"@mixin responsive($ScreenWidth){\n    @media(max-width: $ScreenWidth){\n        @content;\n    }\n}\n\n@mixin style-btn($height, $bg, $colorText){\n    display: inline-block;\n    height: $height;\n    line-height: $height;\n    background-color: $bg;\n    border-radius: 6px;\n    padding: 0px 5rem;\n    font-weight: bold;\n    font-size: 1.6rem;\n    cursor: pointer;\n    transition: all .3s;\n    &:hover{\n        background-color: $colorText;\n        color: $bg;\n    }\n}",
+		".container{\n    width: 100%;\n    max-width: 121.6rem;\n    padding: 0 1.5rem;\n    margin: 0auto;\n}",
+		"body{\n    button{\n        @include style-btn(5.4rem, $yellow, $purple);\n    }\n}"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;EACrB,WAAW,EAAE,kBAAkB;CAClC;;;AAED,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;CACnB;;;AGbD,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,QAAQ;EACnB,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,KAAK;CAChB;;;ACLD,AACI,IADA,CACA,MAAM,CAAA;EFMN,OAAO,EAAE,YAAY;EACrB,MAAM,EENiB,MAAM;EFO7B,WAAW,EEPY,MAAM;EFQ7B,gBAAgB,EDRZ,OAAO;ECSX,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,QAAQ;EACjB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,OAAO;CEblB;;;AAHL,AFiBI,IEjBA,CACA,MAAM,AFgBL,MAAM,CAAA;EACH,gBAAgB,EDjBhB,OAAO;ECkBP,KAAK,EDjBL,OAAO;CCkBV"
+}

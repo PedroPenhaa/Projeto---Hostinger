@@ -1,0 +1,46 @@
+/* line 1, ../FrontEnd/Projeto - Hostinger/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 12, ../FrontEnd/Projeto - Hostinger/scss/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 1, ../FrontEnd/Projeto - Hostinger/scss/_grid.scss */
+.container {
+  width: 100%;
+  max-width: 121.6rem;
+  padding: 0 1.5rem;
+  margin: 0auto;
+}
+
+/* line 2, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
+body button {
+  display: inline-block;
+  height: 5.4rem;
+  line-height: 5.4rem;
+  background-color: #FFBF00;
+  border-radius: 6px;
+  padding: 0px 5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+/* line 18, ../FrontEnd/Projeto - Hostinger/scss/_mixins.scss */
+body button:hover {
+  background-color: #5F3CA1;
+  color: #FFBF00;
+}
+
+/*# sourceMappingURL=main.css.map */
