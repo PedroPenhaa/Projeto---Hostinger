@@ -15,12 +15,9 @@ html {
   font-size: 62.5%;
 }
 
-/* line 1, ../FrontEnd/Projeto - Hostinger/scss/_grid.scss */
-.container {
-  width: 100%;
-  max-width: 121.6rem;
-  padding: 0 1.5rem;
-  margin: 0auto;
+/* line 16, ../FrontEnd/Projeto - Hostinger/scss/_reset.scss */
+img {
+  max-width: 100%;
 }
 
 /* line 2, ../FrontEnd/Projeto - Hostinger/scss/_home.scss */
@@ -41,6 +38,80 @@ body button {
 body button:hover {
   background-color: #5F3CA1;
   color: #FFBF00;
+}
+
+/* line 1, ../FrontEnd/Projeto - Hostinger/scss/_grid.scss */
+.container {
+  width: 100%;
+  max-width: 121.6rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+/* line 1, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 11.9rem;
+  background-color: #5F3CA1;
+  display: flex;
+}
+
+/* line 10, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 15, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+/* line 19, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+header nav ul li:not(:first-child) {
+  margin-left: 5.6rem;
+}
+
+/* line 23, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+header nav ul li a {
+  display: flex;
+  align-items: center;
+}
+
+/* line 26, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+header nav ul li a span {
+  margin-left: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #fcfcfc;
+}
+
+@media (max-width: 600px) {
+  /* line 39, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+  header .container {
+    justify-content: center;
+  }
+  /* line 43, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+  header nav {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 1, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+  header {
+    height: 8rem;
+  }
+  /* line 50, ../FrontEnd/Projeto - Hostinger/scss/_header.scss */
+  header .logo {
+    max-width: 14rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
