@@ -37,7 +37,7 @@ body button {
   transition: all .3s;
 }
 
-/* line 18, ../FrontEnd/Projeto - Hostinger/scss/_mixins.scss */
+/* line 25, ../FrontEnd/Projeto - Hostinger/scss/_mixins.scss */
 body button:hover {
   background-color: #5F3CA1;
   color: #FFBF00;
